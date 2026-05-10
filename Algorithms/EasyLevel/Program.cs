@@ -50,9 +50,10 @@
             //    new List<int>() { 1, 2, 3, 4, 5 }
             //);
 
-            //binaryToString.Run("0100100001100101011011000110110001101111"); // Output: Hello
-            //binaryToString.solutionFindLongestBinaryGap(529); // Output: 4
-            binaryToString.lengthOfLongestSubstring("abcabcdefabb"); // Output: 6
+            //MutilpleProblems.Run("0100100001100101011011000110110001101111"); // Output: Hello
+            //MutilpleProblems.solutionFindLongestBinaryGap(529); // Output: 4
+            //MutilpleProblems.lengthOfLongestSubstring("abcbcde"); // Output: 6
+            MutilpleProblems.findLongestCommonPrefix(["flower", "flow" ,"flight"]); // Output: "fl"
 
         }
     }

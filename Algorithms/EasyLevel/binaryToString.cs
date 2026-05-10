@@ -4,9 +4,28 @@ using System.Text;
 
 namespace EasyLevel
 {
-    public class binaryToString
+    public class MutilpleProblems
     {
+        // Write a function to find the longest common prefix string amongst an array of strings. If there is no common prefix, return an empty string "".
+        // array = ["flower", "flow" ,"flight"]
+        public static void findLongestCommonPrefix(string[] str)
+        {
+            if (str == null || str.Length == 0) { return; } // Constraints: 1 <= strs.length <= 200, 0 <= strs[i].length <= 200, strs[i] consists of only lowercase English letters.}
 
+            string prefix = str[0]; // Start with the first string as the initial prefix
+
+            for (int i = 0; i < str.Length; i++) {
+                while (!str[i].StartsWith(prefix)) {
+                    prefix = prefix.Substring(0, prefix.Length - 1); // Remove the last character from the prefix until it matches the start of the current string                    
+                    if (prefix.Length == 0)
+                    {
+                        return;
+                    }
+                }                
+            }
+
+            Console.WriteLine(prefix);
+        }
         // s = "abcabcdefabb"
         public static void lengthOfLongestSubstring(string s)
         {
@@ -31,7 +50,7 @@ namespace EasyLevel
         }
         
         
-        public static void Run(string s)
+        public static void binaryToString(string s)
         {
             // Convert a binary string to its corresponding ASCII string.
             if (s.Length % 8 != 0) { return; } // Constraints: 1 <= s.length <= 10^4, s.length % 8 == 0
