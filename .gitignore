@@ -1,0 +1,14 @@
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.cache
+*.db
+*.log
+*.tlog
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.DS_Store

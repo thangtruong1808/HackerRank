@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/Algorithms/">
+    <Project Path="Algorithms/EasyLevel/EasyLevel.csproj" Id="0177896c-3961-42a5-ba0a-3e4f017fb9f4" />
+  </Folder>
+  <Folder Name="/SystemDesign/" />
+</Solution>
