@@ -46,9 +46,12 @@
 
             //stairCase.Run(4);
 
-            miniMaxSum.Run(
-                new List<int>() { 1, 2, 3, 4, 5 }
-            );
+            //miniMaxSum.Run(
+            //    new List<int>() { 1, 2, 3, 4, 5 }
+            //);
+
+            //binaryToString.Run("0100100001100101011011000110110001101111"); // Output: Hello
+            binaryToString.solutionFindLongestBinaryGap(529); // Output: 4
 
         }
     }
