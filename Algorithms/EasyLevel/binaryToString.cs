@@ -6,6 +6,31 @@ namespace EasyLevel
 {
     public class binaryToString
     {
+
+        // s = "abcabcdefabb"
+        public static void lengthOfLongestSubstring(string s)
+        {
+            // Given a string s, find the length of the longest substring without repeating characters.
+            if (string.IsNullOrEmpty(s)) { return; } // Constraints: 0 <= s.length <= 5 * 10^4, s consists of English letters, digits, symbols and spaces.
+        
+            HashSet<char> charSet = new HashSet<char>(); // Use a HashSet to store unique characters in the current substring
+            int left = 0; // Left pointer for the sliding window
+            int maxLength = 0; // Variable to keep track of the maximum length found
+            
+            for (int right = 0; right < s.Length; right++)
+            {
+                while (charSet.Contains(s[right]))
+                {
+                    charSet.Remove(s[left]); // Remove characters from the left until we can add the current character
+                    left++; // “dùng biến left để nhớ giá trị cần remove và không cần biết vị trí”
+                }
+                charSet.Add(s[right]); // Add the current character to the set
+                maxLength = Math.Max(maxLength, right - left + 1); // Update maxLength if the current window is larger
+            }
+            Console.WriteLine(maxLength);
+        }
+        
+        
         public static void Run(string s)
         {
             // Convert a binary string to its corresponding ASCII string.

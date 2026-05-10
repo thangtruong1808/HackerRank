@@ -51,7 +51,8 @@
             //);
 
             //binaryToString.Run("0100100001100101011011000110110001101111"); // Output: Hello
-            binaryToString.solutionFindLongestBinaryGap(529); // Output: 4
+            //binaryToString.solutionFindLongestBinaryGap(529); // Output: 4
+            binaryToString.lengthOfLongestSubstring("abcabcdefabb"); // Output: 6
 
         }
     }
