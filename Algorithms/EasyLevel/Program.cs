@@ -40,8 +40,14 @@
             //Console.WriteLine( result );
 
 
-            plusMinus.Run(
-                new List<int>() { -4, 3, -9, 0, 4, 1 }
+            //plusMinus.Run(
+            //    new List<int>() { -4, 3, -9, 0, 4, 1 }
+            //);
+
+            //stairCase.Run(4);
+
+            miniMaxSum.Run(
+                new List<int>() { 1, 2, 3, 4, 5 }
             );
 
         }
