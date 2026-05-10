@@ -6,6 +6,26 @@ namespace EasyLevel
 {
     public class MutilpleProblems
     {
+        // ["A man", "Hello"]
+        public static void isPalindromeArray(string[] s)
+        {
+            if (s == null || s.Length == 0) { return; }
+            StringBuilder result = new StringBuilder();
+            for (int i = 0; i < s.Length; i++) {
+                string orginalString = s[i].ToLower().Trim();
+                string reversedString = new string(orginalString.Reverse().ToArray());
+                if(orginalString == reversedString)
+                {
+                    result.Append(s[i] + " ");
+                }
+            }
+            if (result.Length > 0) {
+                Console.WriteLine(result.ToString());
+            }
+            else { Console.WriteLine("There is no string in array isPlindrome"); }
+            
+        }
+
         // Write a function to find the longest common prefix string amongst an array of strings. If there is no common prefix, return an empty string "".
         // array = ["flower", "flow" ,"flight"]
         public static void findLongestCommonPrefix(string[] str)
