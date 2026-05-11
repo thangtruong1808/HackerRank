@@ -18,7 +18,7 @@
             //int result = simpleArraySum.Run(list);
 
             //var result = compareTriplets.Run(
-            //    new List<int>() { 5, 6, 7 }, 
+            //    new List<int>() { 5, 6, 7 },
             //    new List<int>() { 3, 6, 10 }
             //);
             //Console.WriteLine(String.Join(" ", result));
@@ -78,7 +78,20 @@
                 "198.51.100.77 -- 2026-03-18T04:15:55Z, 200, -"
             };
 
-            AnalyzeLogs.Run(logs);          
+            //AnalyzeLogs.Run(logs);
+            
+            //int Result = birthdayCakeCandles.Run(
+            //    new List<int>() { 3, 2, 1, 3 }
+            //);
+
+            //Console.WriteLine(Result);
+
+            //string Result = timeConversion.Run("07:05:45PM");
+            //Console.WriteLine(Result);
+
+            gradingStudents.Run(
+                new List<int>() { 73, 67, 38, 33 }
+            );
         }
     }
 }

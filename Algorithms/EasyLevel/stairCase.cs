@@ -8,8 +8,9 @@ namespace EasyLevel
     {
         public static void Run(int n)
         {
+            if (n == 0) { return; }
             // Print a staircase of size n using # symbols and spaces.
-            if ((n<1) || (n>100)) { return; } // Constraints: 1 <= n <= 100
+            if ((n<0) || (n>100)) { return; } // Constraints: 1 <= n <= 100
 
             // Loop through each level of the staircase
             for (int i = 1; i <= n; i++)
