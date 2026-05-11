@@ -89,8 +89,14 @@
             //string Result = timeConversion.Run("07:05:45PM");
             //Console.WriteLine(Result);
 
-            gradingStudents.Run(
-                new List<int>() { 73, 67, 38, 33 }
+            //gradingStudents.Run(
+            //    new List<int>() { 73, 67, 38, 33 }
+            //);
+
+            countApplesAndOranges.Run(
+                7, 11, 5, 15,
+                new List<int>() { -2, 2, 1 },
+                new List<int>() { 5, -6 }
             );
         }
     }
