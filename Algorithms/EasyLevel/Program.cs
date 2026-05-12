@@ -79,7 +79,7 @@
             };
 
             //AnalyzeLogs.Run(logs);
-            
+
             //int Result = birthdayCakeCandles.Run(
             //    new List<int>() { 3, 2, 1, 3 }
             //);
@@ -93,11 +93,14 @@
             //    new List<int>() { 73, 67, 38, 33 }
             //);
 
-            countApplesAndOranges.Run(
-                7, 11, 5, 15,
-                new List<int>() { -2, 2, 1 },
-                new List<int>() { 5, -6 }
-            );
+            //countApplesAndOranges.Run(
+            //    7, 11, 5, 15,
+            //    new List<int>() { -2, 2, 1 },
+            //    new List<int>() { 5, -6 }
+            //);
+
+            bool result = isValidParenthese.Run(")(");
+            Console.WriteLine(result);
         }
     }
 }
