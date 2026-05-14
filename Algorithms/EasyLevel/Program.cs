@@ -99,7 +99,10 @@
             //    new List<int>() { 5, -6 }
             //);
 
-            bool result = isValidParenthese.Run(")(");
+            //bool result = isValidParenthese.Run(")(");
+            //Console.WriteLine(result);
+
+            bool result = isPrimeNumber.Run(4);
             Console.WriteLine(result);
         }
     }
