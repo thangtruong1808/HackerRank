@@ -102,8 +102,10 @@
             //bool result = isValidParenthese.Run(")(");
             //Console.WriteLine(result);
 
-            bool result = isPrimeNumber.Run(4);
-            Console.WriteLine(result);
+            //bool result = isPrimeNumber.Run(4);
+            //Console.WriteLine(result);
+
+            findMinimalJumps.Run(10, 85, 30);       // Output: 3
         }
     }
 }
