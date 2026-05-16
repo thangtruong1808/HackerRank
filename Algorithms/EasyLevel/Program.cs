@@ -111,11 +111,17 @@
             //string result = kangaroo.Run(0, 2, 5, 3);     // Output: NO
             //Console.WriteLine(result);
 
-            int result = getTotalX.Run(
-                new List<int>() { 2, 6 },
-                new List<int>() { 24, 36}
+            //int result = getTotalX.Run(
+            //    new List<int>() { 2, 6 },
+            //    new List<int>() { 24, 36}
+            //);
+            //Console.WriteLine( result );
+
+            List<int>result = breakingRecords.Run(
+                new List<int>() { 10, 5, 20, 20, 4, 5, 2, 25, 1 }
             );
-            Console.WriteLine( result );
+
+            Console.WriteLine(String.Join(" ", result));
         }
     }
 }
