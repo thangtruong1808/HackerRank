@@ -108,8 +108,14 @@
             //findMinimalJumps.Run(10, 85, 30);       // Output: 3
 
             //bool result = kangaroo.Run(0,3, 4, 2);     // Output: YES
-            string result = kangaroo.Run(0, 2, 5, 3);     // Output: NO
-            Console.WriteLine(result);
+            //string result = kangaroo.Run(0, 2, 5, 3);     // Output: NO
+            //Console.WriteLine(result);
+
+            int result = getTotalX.Run(
+                new List<int>() { 2, 6 },
+                new List<int>() { 24, 36}
+            );
+            Console.WriteLine( result );
         }
     }
 }
