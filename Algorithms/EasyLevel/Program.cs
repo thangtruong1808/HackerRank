@@ -105,7 +105,11 @@
             //bool result = isPrimeNumber.Run(4);
             //Console.WriteLine(result);
 
-            findMinimalJumps.Run(10, 85, 30);       // Output: 3
+            //findMinimalJumps.Run(10, 85, 30);       // Output: 3
+
+            //bool result = kangaroo.Run(0,3, 4, 2);     // Output: YES
+            string result = kangaroo.Run(0, 2, 5, 3);     // Output: NO
+            Console.WriteLine(result);
         }
     }
 }
