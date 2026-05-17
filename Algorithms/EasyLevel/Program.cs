@@ -123,18 +123,27 @@
 
             //Console.WriteLine(String.Join(" ", result));
 
+            // 17-May-2026
             //string[] results = reverseStrings.Run(
             //    new string[] { "cheery", "banana", "apple" }
             //);
 
             //Console.WriteLine(string.Join(", " , results));
 
-            int results = subArrayDivision.Run(
-                new List<int>() { 1, 2, 1, 3, 2 },
+            //int results = subArrayDivision.Run(
+            //    new List<int>() { 1, 2, 1, 3, 2 },
+            //    3,
+            //    2
+            //);
+            //Console.WriteLine( results );
+
+            int results = divisibleSumPairs.Run(
+                6,
                 3,
-                2
+                new List<int>() { 1, 3, 2, 6, 1, 2 }
             );
-            Console.WriteLine( results );
+
+            Console.WriteLine(results);
         }
     }
 }

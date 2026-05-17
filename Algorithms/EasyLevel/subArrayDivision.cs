@@ -12,7 +12,7 @@ namespace EasyLevel
             //The length of the segment matches Ron's birth month as m from input
             //The sum of the integers on the squares is equal to his birth day as d from input.
             int count = 0;  // Initialize count to keep track of valid segments
-            for (int i = 0; i <= s.Count - m; i++)
+            for (int i = 0; i <= s.Count - m; i++)  // Loop through the list, ensuring we don't go out of bounds when checking segments of length m
             {
                 Console.WriteLine($"i = {i}");
                 int sum = 0;
