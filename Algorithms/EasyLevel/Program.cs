@@ -117,11 +117,17 @@
             //);
             //Console.WriteLine( result );
 
-            List<int>result = breakingRecords.Run(
-                new List<int>() { 10, 5, 20, 20, 4, 5, 2, 25, 1 }
+            //List<int>result = breakingRecords.Run(
+            //    new List<int>() { 10, 5, 20, 20, 4, 5, 2, 25, 1 }
+            //);
+
+            //Console.WriteLine(String.Join(" ", result));
+
+            string[] results = reverseStrings.Run(
+                new string[] { "cheery", "banana", "apple" }
             );
 
-            Console.WriteLine(String.Join(" ", result));
+            Console.WriteLine(string.Join(", " , results));
         }
     }
 }
