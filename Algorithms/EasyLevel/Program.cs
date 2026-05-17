@@ -123,11 +123,18 @@
 
             //Console.WriteLine(String.Join(" ", result));
 
-            string[] results = reverseStrings.Run(
-                new string[] { "cheery", "banana", "apple" }
-            );
+            //string[] results = reverseStrings.Run(
+            //    new string[] { "cheery", "banana", "apple" }
+            //);
 
-            Console.WriteLine(string.Join(", " , results));
+            //Console.WriteLine(string.Join(", " , results));
+
+            int results = subArrayDivision.Run(
+                new List<int>() { 1, 2, 1, 3, 2 },
+                3,
+                2
+            );
+            Console.WriteLine( results );
         }
     }
 }
