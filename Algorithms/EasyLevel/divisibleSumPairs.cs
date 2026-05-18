@@ -13,7 +13,7 @@ namespace EasyLevel
             {
                 for (int j = i + 1; j < n; j++) // Loop through the elements that come after the current element
                 {
-                    if ((ar[i] + ar[j]) % k == 0)
+                    if ((ar[i] + ar[j]) % k == 0)   // Check if the sum of the two elements is divisible by k
                     {
                         count++;
                     }

@@ -124,6 +124,7 @@
             //Console.WriteLine(String.Join(" ", result));
 
             // 17-May-2026
+
             //string[] results = reverseStrings.Run(
             //    new string[] { "cheery", "banana", "apple" }
             //);
@@ -137,13 +138,21 @@
             //);
             //Console.WriteLine( results );
 
-            int results = divisibleSumPairs.Run(
-                6,
-                3,
-                new List<int>() { 1, 3, 2, 6, 1, 2 }
+            //int results = divisibleSumPairs.Run(
+            //    6,
+            //    3,
+            //    new List<int>() { 1, 3, 2, 6, 1, 2 }
+            //);
+
+            //Console.WriteLine(results);
+
+            // 18-May-2026
+            int results = migratoryBirds.Run(
+                new List<int>() { 1, 1, 2, 2, 3 }
             );
 
-            Console.WriteLine(results);
+            Console.WriteLine( results );
+
         }
     }
 }
