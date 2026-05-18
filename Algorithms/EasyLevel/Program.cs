@@ -147,10 +147,11 @@
             //Console.WriteLine(results);
 
             // 18-May-2026
-            int results = migratoryBirds.Run(
-                new List<int>() { 1, 1, 2, 2, 3 }
-            );
+            //int results = migratoryBirds.Run(
+            //    new List<int>() { 1, 1, 2, 2, 3 }
+            //);
 
+            string results = dayOfProgrammer.Run(1984);
             Console.WriteLine( results );
 
         }

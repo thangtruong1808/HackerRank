@@ -8,6 +8,7 @@ namespace EasyLevel
     {
         public static int Run(List<int> arr)
         {
+            // Create a dictionary to store the count of each bird type
             Dictionary<int, int> birdCounts = new Dictionary<int, int>();
             // Count the occurrences of each bird type
             foreach (int bird in arr)
