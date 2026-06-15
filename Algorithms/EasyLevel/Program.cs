@@ -151,8 +151,10 @@
             //    new List<int>() { 1, 1, 2, 2, 3 }
             //);
 
-            string results = dayOfProgrammer.Run(1984);
-            Console.WriteLine( results );
+            //string results = dayOfProgrammer.Run(1984);
+            //Console.WriteLine( results );
+            List<int> bill = new List<int> { 2, 4, 6 };
+            bonAppetit.Run(bill, 2, 6);
 
         }
     }

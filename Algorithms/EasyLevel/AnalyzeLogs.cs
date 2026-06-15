@@ -40,7 +40,7 @@ namespace EasyLevel
                 string ip = parts[0].Trim();    // IP address
                 ipAddress.Add(ip);
                 string content = parts[1].Trim();       // Timestamp, status code, and error message                                      
-
+                // Extract the status code from the content
                 int code = Convert.ToInt32(content.Split(",")[1].Trim()); // Extract the status code
                 statusCodes.Add(code);
             }
