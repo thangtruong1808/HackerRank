@@ -153,8 +153,12 @@
 
             //string results = dayOfProgrammer.Run(1984);
             //Console.WriteLine( results );
-            List<int> bill = new List<int> { 2, 4, 6 };
-            bonAppetit.Run(bill, 2, 6);
+            
+            //List<int> bill = new List<int> { 2, 4, 6 };
+            //bonAppetit.Run(bill, 2, 6);
+
+            int results = sockMerchant.Run(7, new List<int>() { 1, 2, 1, 2, 1, 3, 2 });
+            Console.WriteLine(results);
 
         }
     }

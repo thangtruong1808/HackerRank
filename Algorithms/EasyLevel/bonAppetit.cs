@@ -31,7 +31,7 @@ namespace EasyLevel
                 totalBill += bill[i];
             }            
 
-            int annaShare = (totalBill - bill[k]) / 2;
+            int annaShare = (totalBill - bill[k]) / 2;  // Calculate Anna's share by subtracting the cost of the item she didn't eat and dividing by 2
 
             if (annaShare == b)
             {
