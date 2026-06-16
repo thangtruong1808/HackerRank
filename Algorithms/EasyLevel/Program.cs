@@ -162,8 +162,15 @@
 
             //int result = pageCount.pageCountFunc(6, 2);
             //Console.WriteLine(result);
-            
-            int result = countingValleys.Run(8, "UDDDUDUU");
+
+            //int result = countingValleys.Run(8, "UDDDUDUU");
+            //Console.WriteLine(result);
+
+            int[] keyboards = { 40, 50, 60 };
+            int[] drives = { 5, 8, 12 };
+            int budget = 60;
+
+            int result = getMoneySpent.Run(keyboards, drives, budget);
             Console.WriteLine(result);
 
 
