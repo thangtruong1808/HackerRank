@@ -160,7 +160,10 @@
             //int results = sockMerchant.Run(7, new List<int>() { 1, 2, 1, 2, 1, 3, 2 });
             //Console.WriteLine(results);
 
-            int result = pageCount.pageCountFunc(6, 2);
+            //int result = pageCount.pageCountFunc(6, 2);
+            //Console.WriteLine(result);
+            
+            int result = countingValleys.Run(8, "UDDDUDUU");
             Console.WriteLine(result);
 
 
