@@ -26,8 +26,9 @@ namespace EasyLevel
                 {
                     if (stack.Count == 0) { return false; }
                     char open = stack.Pop();    // Get the last opened parenthesis
+                    Console.WriteLine(open);
 
-                    if (parenthesesPairs[open] != c) { return false; }
+                    if (parenthesesPairs[open] != c) { return false; }  // get value of the open parenthesis and compare with the current character
                 }
             }
             return stack.Count == 0;
